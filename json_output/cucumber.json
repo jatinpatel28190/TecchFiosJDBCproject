@@ -1,0 +1,85 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4310598700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "techfios-login-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 936658200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter the username and password",
+            "match": {
+              "location": "LoginStepDefination.user_enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1539609600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on submit button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 734236700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should be on homepage",
+            "match": {
+              "location": "LoginStepDefination.user_should_be_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TechFios login functionality",
+    "description": "",
+    "id": "techfios-login-functionality",
+    "keyword": "Feature",
+    "uri": "features/Login1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  }
+]
